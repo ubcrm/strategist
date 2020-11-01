@@ -8,10 +8,7 @@ import numpy as np
 from src.constants import SETTINGS, TORCH_DEVICE, ROBOT_AGENT_STATE_DICT
 
 from src.agent.entities.robot import RobotId, Robot, RobotState
-
-
-def parse_robot_input(robot: Robot, board: "Board"):
-    pass
+from src.parser.parser import parse_robot_input
 
 
 class RobotAgent(nn.Module, metaclass=ABCMeta):

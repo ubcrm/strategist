@@ -7,8 +7,10 @@ from abc import ABCMeta
 from typing import Any, Dict
 from src.agent.agent import Agent
 from src.constants import TORCH_DEVICE, SETTINGS
-from src.agent.learning.robot_agent import RobotAgent, parse_robot_input
+from src.agent.learning.robot_agent import RobotAgent
 from src.agent.learning.train.evaluator import evaluate_board
+from src.parser.parser import parse_robot_input
+
 
 
 class TrainAgent(Agent):
