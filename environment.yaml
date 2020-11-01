@@ -1,0 +1,11 @@
+name: rm-strategist
+dependencies:
+  - numpy
+  - matplotlib
+  - pillow
+  - pyyaml
+  - pathlib
+  - pytest
+  - idna
+  - flake8
+  - tqdm
